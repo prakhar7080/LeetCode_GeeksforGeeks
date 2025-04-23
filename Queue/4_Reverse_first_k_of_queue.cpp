@@ -5,11 +5,11 @@ class Solution {
             return q;
         }
         stack<int>s;
-        int n = q.size()-k;
         while(k--){
             s.push(q.front());
             q.pop();
         }
+        int n = q.size();
         while(!s.empty()){
             q.push(s.top());
             s.pop();
