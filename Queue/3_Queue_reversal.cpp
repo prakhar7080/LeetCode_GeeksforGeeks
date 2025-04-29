@@ -1,6 +1,6 @@
 class Solution {
   public:
-    queue<int> reverseQueue(queue<int> &q) {
+    queue<int>reverseQueue(queue<int> &q) {
         stack<int>s;
         while(!q.empty()){
             s.push(q.front());
