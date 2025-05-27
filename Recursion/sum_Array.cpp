@@ -1,5 +1,7 @@
 #include<iostream>
 using namespace std;
+
+
 void sum(int arr[],int i, int n, int &s){
     if(i>=n){
         return;
