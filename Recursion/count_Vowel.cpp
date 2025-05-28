@@ -4,7 +4,6 @@ int count(string str, int i){
     if(i>str.length()-1){
         return 0;
     }
-    char ch = tolower(str[i]);
     if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u'){
         return 1 + count(str,i+1);
     }
