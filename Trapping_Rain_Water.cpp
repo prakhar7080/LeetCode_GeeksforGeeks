@@ -18,7 +18,7 @@ public:
     }
 };
 
-// Second Solution : (Using Auxilary Space)
+// Second Solution : (Using Auxiliary Space)
 
 // class Solution {
 // public:
